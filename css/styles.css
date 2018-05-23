@@ -1,10 +1,14 @@
-.column {
-  float: left;
-  width: 30%
-}
 
 body {
   background-color: green;
+}
+
+body h1 {
+  background-color: yellow;
+  border: 10px dotted red;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
 }
 
 .margin{
@@ -18,18 +22,47 @@ img {
 }
 
 p {
-  font-style: normal;
-  font-size: 30px
-}
-.column p a {
-  font-weight: bold;
-  color: red;
-  font-style: italic;
+  font-size: 30px;
+  color: #fff;
 }
 
-
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
 h2 {
  color: blue;
  font-size: 50px
+}
 
+.puppy {
+  float: left;
+  width: 30%;
+}
+
+.kitten {
+  float: left;
+  width: 30%;
+}
+
+.piglet {
+  float: left;
+  width: 30%;
+}
+
+.puppy p {
+  color: brown;
+}
+
+.kitten p {
+  color: #485940;
+}
+
+.piglet p {
+  color: #aaa900
+}
+
+.puppy p a {
+  color: red;
+  font-size: 60px
 }
